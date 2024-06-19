@@ -1,0 +1,58 @@
+repo_name: DoneSpeak/notionapi
+report_id: ee4525b673bda20f4fc91702cb4e147e
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-19T07:54:44+00:00'
+requested_by: egbakou
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/DoneSpeak/notionapi
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DoneSpeak/notionapi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DoneSpeak/notionapi/blob/main/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: Anatoly Nosov
+  last_updated_on: 2022-06-03 07:44:11.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DoneSpeak/notionapi/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Anatoy Nosov
+  last_updated_on: 2021-05-27 07:16:06.000000000 Z
